@@ -1,0 +1,52 @@
+// This is a block template
+{
+    "format_version": "1.16.0",
+
+    "minecraft:block":
+    {
+        "description":
+        {
+            // 命名空间
+            "identifier": "",
+            // 是否为实验性方块
+            "is_experimental": false,
+            // 注册到创造模式物品栏
+            // 暂时弃用
+            "register_to_creative_menu": true
+        },
+        // 组件
+        "components": 
+        {
+            // 创造模式物品分类
+            "minecraft:creative_category": 
+            {
+                "category": "",
+                "group": "",
+                "url": "https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_creative_category"
+            },
+            // 破坏时间
+            "minecraft:destroy_time": 0,
+            // 爆炸抗性
+            "minecraft:explosion_resistance": 0,
+            // 摩擦力
+            "minecraft:friction": 0.6,
+            // 可燃性
+            "minecraft:flammable":
+            {
+                // 周围有火时，此方块被引燃的概率
+                "flame_odds": 0,
+                // 着火时，此方块被烧毁的概率
+                "burn_odds": 0
+            },
+            // 在地图上的颜色
+            "minecraft:map_color": "#FFFFFF",
+            // 此方块会吸收多少光
+            "minecraft:block_light_absorption": 0,
+            // 此方块会发出多亮的光
+            "minecraft:block_light_emission": 0,
+
+            "url":"https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/examples/blockcomponentslist"
+        },
+        "url": "https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    // 格式版本
+    "format_version": "1.16.0",
+
+    // helloworld:test_block 方块材质
+    "helloworld:one_block":
+    {
+        // 材质名称
+        "textures": "test_block_texture",
+        "textures": 
+        {
+            "up": "",
+            "down": "",
+            "side": "",
+            "side": 
+            {
+                "north": "",
+                "east": "",
+                "south": "",
+                "west": ""
+            }
+        },
+        "url": "https://docs.microsoft.com/zh-cn/minecraft/creator/documents/customblock#材质和子材质",
+        
+        // 声音：泥土
+        "sound": ""
+    }
+}

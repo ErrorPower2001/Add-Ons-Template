@@ -1,0 +1,51 @@
+{
+    // 格式版本
+    "format_version": 2,
+
+    // 本MCPack的头文件
+    "header":
+    {
+        // MCPack的名字
+        "name": "ResourcePack: Learning Add-Ons",
+        // 对MCPack的描述
+        "description": "This is my learning Add-On Resource Pack",
+        // MCPack的UUID，值是永远的，唯一的
+        "uuid": "c4c2d120-b941-432a-8d8f-75cfeb697daa",
+        // MCPack的版本
+        "version": [0, 0, 1],
+        // MCPack适用的最低游戏版本
+        "min_engine_version": [1, 19, 0]
+    },
+
+    // 本MCPack包含的模块
+    // 目前，即使键“module”是一个数组，但一个MCPack只包含与加载一个模块
+    "modules":
+    [
+        {
+            // 对该模块的描述
+            // 这句话在游戏中没有任何地方有显示
+            "description": "This is my learning Add-On Resource pack's module 0",
+            // 该模块的通用唯一标识码
+            "uuid": "c9946e79-8703-450a-b76e-9a9c42bd338a",
+            // 模块的版本
+            "version": [0, 0, 1],
+            // 模块类型
+            "type": "resources"
+        }
+    ],
+
+    "metadata":
+    {
+        // A list of tools and their version that have modified this pack
+        "generated_with":
+        {
+            "MicrosoftVisualStudioCode": ["1.68.0"]
+        },
+        // 作者
+        "authors": ["ErrorPower"],
+        // 协议
+        "license": "",
+        // 相关链接
+        "url": ""
+    }
+}
