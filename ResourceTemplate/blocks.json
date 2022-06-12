@@ -2,5 +2,5 @@
     // 格式版本
     "format_version": "1.16.0",
 
-    "doc": "https://docs.microsoft.com/zh-cn/minecraft/creator/documents/customblock#blocksjson"
+    "doc-url": "https://docs.microsoft.com/zh-cn/minecraft/creator/documents/customblock#blocksjson"
 }

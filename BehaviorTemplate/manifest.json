@@ -6,11 +6,11 @@
     "header":
     {
         // MCPack的名字
-        "name": "BehaviorPack: Learning Add-Ons",
+        "name": "BehaviorPackName",
         // 对MCPack的描述
-        "description": "This is my learning Add-On Behavior Pack",
+        "description": "Behavior Pack Description",
         // MCPack的UUID，值是永远的，唯一的
-        "uuid": "d22be4b8-c741-490f-b28f-251ebff08667",
+        "uuid": "",
         // MCPack的版本
         "version": [0, 0, 1],
         // MCPack适用的最低游戏版本
@@ -24,22 +24,13 @@
         {
             // 对该模块的描述
             // 这句话在游戏中没有任何地方有显示
-            "description": "This is my learning Add-On Behavior pack's module 0",
+            "description": "",
             // 该模块的通用唯一标识码
-            "uuid": "412decf5-2718-4bd2-9410-8af4b0dc21c0",
+            "uuid": "",
             // 模块的版本
             "version": [0, 0, 1],
             // 模块类型
             "type": "data"
-        }
-    ],
-
-    // 依赖项
-    "dependencies":
-    [
-        {
-            "uuid": "c4c2d120-b941-432a-8d8f-75cfeb697daa",
-            "version": [0, 0, 1]
         }
     ],
 
@@ -48,7 +39,7 @@
         // A list of tools and their version that have modified this pack
         "generated_with":
         {
-            "Microsoft Visual Studio Code": ["1.68.0"]
+            "MicrosoftVisualStudioCode": ["1.68.0"]
         },
         // 作者
         "authors": ["ErrorPower"],
@@ -56,5 +47,14 @@
         "license": "",
         // 相关链接
         "url": ""
-    }
+    },
+
+    // 依赖项
+    "dependencies":
+    [
+        {
+            "uuid": "",
+            "version": [0, 0, 1]
+        }
+    ]
 }
