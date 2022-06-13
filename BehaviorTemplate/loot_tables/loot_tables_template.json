@@ -89,7 +89,7 @@
                 "?_ // 战利品表也可嵌套其他战利品表",
                 {
                     "type": "loot_table",
-                    "name": "loot_tables/custom/some_loot_table",
+                    "name": "loot_tables/empty",
                     "weight": 0
                 }
             ]
