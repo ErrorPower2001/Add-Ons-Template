@@ -1,5 +1,5 @@
 {
-    // 从什么位置寻找
+    // 从什么包寻找资源
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.terrain",
     // padding是每个纹理文件整合为一个大的图集文件时的内边距。大图集文件中每个纹理周围都存在一段延伸的边距，这便是由该字段定义的，这是为了避免MIPMAP过程中不同方块的贴图之间像素融合的问题。
@@ -11,6 +11,7 @@
     {
         "templateblock":
         {
+            // 此数组还不知道如何使用，目前仅读第一个
             "textures":
             [
                 "textures/blocks/obsidian",

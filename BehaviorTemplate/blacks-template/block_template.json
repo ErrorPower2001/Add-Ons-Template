@@ -4,6 +4,7 @@
 
     "minecraft:block":
     {
+        // 描述
         "description":
         {
             // 命名空间
@@ -11,13 +12,13 @@
             // 是否为实验性方块
             "is_experimental": false,
             // 注册到创造模式物品栏
-            // 暂时弃用
+            // 此项暂时弃用（2022.06.13）
             "register_to_creative_menu": true
         },
         // 组件
         "components": 
         {
-            // 创造模式物品分类
+            // 创造模式物品栏分类
             "minecraft:creative_category": 
             {
                 "category": "",
@@ -45,8 +46,10 @@
             // 此方块会发出多亮的光
             "minecraft:block_light_emission": 0,
 
+            // 参考文档，可用于获取更多组件
             "doc-url":"https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/examples/blockcomponentslist"
         },
+        // 参考文档
         "doc-url": "https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/"
     }
 }

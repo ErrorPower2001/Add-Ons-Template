@@ -20,7 +20,7 @@
                 "west": ""
             }
         },
-        "url": "https://docs.microsoft.com/zh-cn/minecraft/creator/documents/customblock#材质和子材质",
+        "doc-url": "https://docs.microsoft.com/zh-cn/minecraft/creator/documents/customblock#材质和子材质",
         
         // 声音：泥土
         "sound": ""
