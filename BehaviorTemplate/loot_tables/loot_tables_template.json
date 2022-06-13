@@ -1,0 +1,87 @@
+{
+    // 战利品池组，调用时会从每一个池中逐个收取物品
+    "pools":
+    [
+        // 一个战利品池
+        {
+            // 随机池条件列表
+            "conditions":
+            [
+                {
+                    "condition": ""
+                }
+            ],
+            // 抽取次数
+            "rolls": 1,
+            // 随机化抽取次数
+            "rolls": 
+            {
+                "min": 1,
+                "max": 3
+            },
+            // 战利品条目
+            "entries":
+            [
+                // 其中一个物品
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    // 定义“weight”后本条目有1+7=8个项
+                    "weight": 1,
+                    // 函数表
+                    "functions":
+                    [
+                        {
+                            // 设置数量
+                            "function": "set_count",
+                            "count":
+                            {
+                                "min": 1,
+                                "max": 6
+                            }
+                        },
+                        {
+                            // 设置数据值
+                            "function": "set_data",
+                            "data": 0
+                        },
+                        {
+                            // 设置附魔表
+                            "function": "specific_enchants",
+                            "enchants":
+                            [
+                                // 直接设置附魔
+                                "knockback",
+                                "fire_aspect",
+                                // 详细设置附魔及等级
+                                {
+                                    "id": "knockback",
+                                    "level": 1
+                                },
+                                {
+                                    "id": "unbreaking",
+                                    "level": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                // 另一个物品
+                {
+                    "type": "item",
+                    "name": "minecraft:coal",
+                    // 定义“weight”后本条目有1+7=8个项
+                    "weight": 7
+                },
+                {
+                    // 战利品表也可嵌套其他战利品表
+                    "type": "loot_table",
+                    "name": "loot_tables/custom/some_loot_table",
+                    "weight": 0
+                }
+            ]
+        }
+    ],
+    "doc-url": "https://www.mcbbs.net/thread-829760-1-1.html",
+    "doc-url": "https://docs.microsoft.com/zh-cn/minecraft/creator/documents/introductiontoloottables"
+}
