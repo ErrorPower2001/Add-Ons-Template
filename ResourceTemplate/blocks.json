@@ -1,5 +1,10 @@
 {
-    // 格式版本
+    "?_ // ": "",
+    "?_comment_template // descriptions": "descriptions",
+
+    "?_What is it // 这是什么": "// This is a template  // 这是一个模板",
+
+    "?_format_version // 版本格式": "基于 1.19 版本时官方文档版本为 1.16.0",
     "format_version": "1.16.0",
 
     "doc-url": "https://docs.microsoft.com/zh-cn/minecraft/creator/documents/customblock#blocksjson"

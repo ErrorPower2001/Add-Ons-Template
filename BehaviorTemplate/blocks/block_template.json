@@ -1,55 +1,70 @@
-// This is a block template
 {
+    "?_ // ": "",
+    "?_comment_template // descriptions": "descriptions",
+
+    "?_What is it // 这是什么": "// This is a block template // 这是一个方块的模板",
+
+    "?_format_version // 格式版本":"基于 1.19 版本时官方文档版本为 1.16.0",
     "format_version": "1.16.0",
 
+    "?_minecraft:block // ": "文件类型定义",
     "minecraft:block":
     {
-        // 描述
+        "?_description // ": "描述",
         "description":
         {
-            // 命名空间
+            "?_identifier // 命名空间": "namespace:the_identifier",
             "identifier": "",
-            // 是否为实验性方块
+
+            "?_is_experimental // 是否为实验性方块": "",
             "is_experimental": false,
-            // 注册到创造模式物品栏
-            // 此项暂时弃用（2022.06.13）
+            
+            "?_register_to_creative_menu // 注册到创造模式物品栏": "",
+            "?_register_to_creative_menu // 此项暂时弃用（2022.06.13）": "",
             "register_to_creative_menu": true
         },
-        // 组件
+        "?_components // 组件": "",
         "components": 
         {
-            // 创造模式物品栏分类
+            "?_minecraft:creative_category // 创造模式物品栏分类": "",
             "minecraft:creative_category": 
             {
                 "category": "",
                 "group": "",
                 "doc-url": "https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/examples/blockcomponents/minecraftblock_creative_category"
             },
-            // 破坏时间
+
+            "?_minecraft:destroy_time // 破坏时间": "",
             "minecraft:destroy_time": 0,
-            // 爆炸抗性
+
+            "?_minecraft:explosion_resistance // 爆炸抗性": "",
             "minecraft:explosion_resistance": 0,
-            // 摩擦力
+
+            "?_minecraft:friction // 摩擦力": "草方块为 0.6，冰为 0.1",
             "minecraft:friction": 0.6,
-            // 可燃性
+
+            "?_minecraft:flammable // 可燃性": "",
             "minecraft:flammable":
             {
-                // 周围有火时，此方块被引燃的概率
+                "?_flame_odds // 周围有火时，此方块被引燃的概率": "",
                 "flame_odds": 0,
-                // 着火时，此方块被烧毁的概率
+                "?_burn_odds // 着火时，此方块被烧毁的概率": "",
                 "burn_odds": 0
             },
-            // 在地图上的颜色
+
+            "?_minecraft:map_color // 在地图上的颜色": "#FFFFFF",
             "minecraft:map_color": "#FFFFFF",
-            // 此方块会吸收多少光
+
+            "?_minecraft:block_light_absorption // 此方块会吸收多少光": "",
             "minecraft:block_light_absorption": 0,
-            // 此方块会发出多亮的光
+
+            "?_minecraft:block_light_emission // 此方块会发出多亮的光": "",
             "minecraft:block_light_emission": 0,
 
-            // 参考文档，可用于获取更多组件
+            "?_doc-url // 参考文档，可用于获取更多组件": "",
             "doc-url":"https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/examples/blockcomponentslist"
         },
-        // 参考文档
+        "?_doc-url // 参考文档，可用于获取更多组件": "",
         "doc-url": "https://docs.microsoft.com/zh-cn/minecraft/creator/reference/content/blockreference/"
     }
 }

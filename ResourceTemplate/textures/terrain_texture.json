@@ -1,17 +1,22 @@
 {
-    // 从什么包寻找资源
+    "?_ // ": "",
+    "?_comment_template // descriptions": "descriptions",
+
+    "?_What is it // 这是什么": "// This is a template  // 这是一个模板",
+
+    "?_resource_pack_name // 资源包名": "从什么包寻找资源",
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.terrain",
-    // padding是每个纹理文件整合为一个大的图集文件时的内边距。大图集文件中每个纹理周围都存在一段延伸的边距，这便是由该字段定义的，这是为了避免MIPMAP过程中不同方块的贴图之间像素融合的问题。
+    "?_padding // 纹理边距": "padding是每个纹理文件整合为一个大的图集文件时的内边距。大图集文件中每个纹理周围都存在一段延伸的边距，这便是由该字段定义的，这是为了避免MIPMAP过程中不同方块的贴图之间像素融合的问题。",
     "padding": 8,
-    // num_mip_levels是该图集文件进行的MIPMAP次数，MIPMAP次数越多远处的方块的噪点越少。
+    "?_num_mip_levels // MIPMAP次数": "num_mip_levels是该图集文件进行的MIPMAP次数，MIPMAP次数越多远处的方块的噪点越少。",
     "num_mip_levels": 4,
     
     "texture_data": 
     {
         "templateblock":
         {
-            // 此数组还不知道如何使用，目前仅读第一个
+            "?_textures // 纹理": "此数组还不知道如何使用，目前仅读第一个",
             "textures":
             [
                 "textures/blocks/obsidian",
