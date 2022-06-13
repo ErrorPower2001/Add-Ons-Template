@@ -80,7 +80,7 @@
                 "?_ // 另一个物品",
                 {
                     "type": "item",
-                    "name": "minecraft:coal",
+                    "name": "minecraft:iron_block",
 
                     "?_weight // 权重": "定义“weight”后本条目有1+7=8个项",
                     "weight": 7
@@ -89,7 +89,7 @@
                 "?_ // 战利品表也可嵌套其他战利品表",
                 {
                     "type": "loot_table",
-                    "name": "loot_tables/empty",
+                    "name": "empty",
                     "weight": 0
                 }
             ]
