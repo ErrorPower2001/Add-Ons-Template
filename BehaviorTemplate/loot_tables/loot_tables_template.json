@@ -88,11 +88,11 @@
 
                 "?_ // 战利品表也可嵌套其他战利品表",
                 {
-                    "type": "loot_table",
-                    "name": "empty",
-                    "weight": 0
+                    "//type": "loot_table",
+                    "//name": "empty",
+                    "//weight": 0
                 }
-            ]
+            ] 
         }
     ],
     "doc-url:mcbbs.com": "https://www.mcbbs.net/thread-829760-1-1.html",
